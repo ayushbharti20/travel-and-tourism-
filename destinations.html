@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For you </title>
+    <link rel="stylesheet" href="destinations.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="logotitle">
+        <img src="61.png" alt="">
+    </div>
+    <nav id="sidenav">
+        <ul>
+            <li><a href="first.html"> HOME </a></li>
+            <li><a href="destinations.html"> DESTINATIONS </a></li>
+            <li><a href="index1.HTML"> REVIEWS </a></li>
+            <!-- <li><a href="#"> TRANSPOTATION </a></li> -->
+            <li><a href="index.html"> SIGN UP/BOOKINGS </a></li>
+            <!-- <li><a href="#"> BLOG/STORIES </a></li> -->
+            <li><a href="about1.html"> ABOUT US </a></li>
+            <li><a href="contact.html"> CONTACT US </a></li>
+        </ul>
+    </nav>
+    <img src="15.jpeg" id="menuBtn">
+
+    <h2 id="spcl"> Some Famous Destinations </h2>
+    <div class="line">
+        <hr>
+    </div>
+    <div class="gallery">
+        <img src="ayodhya.jpg" data-title="Vlogging" alt="">
+        <img src="buddha.jpg"data-title="Hip-Hop One" alt="">
+        <img src="gateway.jpg" data-title="GTR" alt="">
+        <img src="gir.jpg" data-title="Guitar" alt="">
+        <img src="goa.jpg" data-title="Love You 3000" alt="">
+        <img src="golden.jpg" data-title="Lifeee" alt="">
+        <img src="hawamahal.jpg" data-title="Music" alt="">
+        <img src="himalayas.jpg" data-title="Color-Pencils" alt="">
+        <img src="kashmir.jpg" data-title="Camera" alt="">
+        <img src="kedarnath.jpg" data-title="Smile Pls" alt="">
+        <img src="ladakh.jpg" data-title="Scenary" alt="">
+        <img src="lotustemple.jpg" data-title="Peaky Blinders" alt="">
+        <img src="munnar.jpg" data-title="Mustang" alt="">
+        <img src="tajmahal.jpg" data-title="Technology" alt="">
+        <img src="victoria.jpg"data-title="71st Hundred" alt="">
+        <img src="jog.jpg" data-title="Wall Art" alt="">
+        <img src="badani.jpg" data-title="Colorsss">
+        <img src="indiagate.jpg" data-title="Art">
+
+    </div>
+    <div class="b3">
+        <a href="INDEX.HTML">Sign Up To Load More</a>
+    </div>
+
+    <div class="social-icon">
+        <img src="facebook.png" alt="">
+        <img src="instagram.png" alt="">
+        <img src="twitter.png" alt="">
+        <img src="linkedin.png" alt="">
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">our services</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">affiliate program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Get Help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">continue</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">payment option</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Book now</h4>
+                    <ul>
+                        <li><a href="#">Hotel</a></li>
+                        <li><a href="#">Flight</a></li>
+                        <li><a href="#">Taxi</a></li>
+                        <li><a href="#">Restraunt</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <script>
+        var menuBtn = document.getElementById("menuBtn");
+        var sidenav = document.getElementById("sidenav");
+
+        sidenav.style.right = "-250px";
+        menuBtn.onclick = function () {
+            if (sidenav.style.right == "-250px") {
+                sidenav.style.right = "0";
+            }
+            else {
+                sidenav.style.right = "-250px"
+            }
+        }
+
+       
+    </script>
+
+</body>
+</html>

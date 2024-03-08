@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <div class="logotitle">
+        <img src="61.png" alt="">
+    </div>
+    <nav id="sidenav">
+        <ul>
+            <li><a href="first.html"> HOME </a></li>
+            <li><a href="destinations.html"> DESTINATIONS </a></li>
+            <li><a href="index1.HTML"> REVIEWS </a></li>
+            <!-- <li><a href="#"> TRANSPOTATION </a></li> -->
+            <li><a href="index.html"> SIGN UP/BOOKINGS </a></li>
+            <!-- <li><a href="#"> BLOG/STORIES </a></li> -->
+            <li><a href="about1.html"> ABOUT US </a></li>
+            <li><a href="contact.html"> CONTACT US </a></li>
+        </ul>
+    </nav>
+    <img src="15.jpeg" id="menuBtn">
+
+
+
+    <div class="contain">
+        <h1>Contact Us</h1>
+        <p>We would love to respond to your queries and help you succeed. Feel free to get in Touch with <br> Get you
+            querry solve in less than a spam of 24 Hours!</p>
+        <div class="contact-box">
+            <div class="contact-left">
+                <h3>Sent your Request</h3>
+                <form action="">
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label for="">Name: </label>
+                            <input type="text" placeholder="Enter Your Name">
+                        </div>
+                        <div class="input-group">
+                            <label for="">Phone Number: </label>
+                            <input type="number" placeholder="+1 643 456 345">
+                        </div>
+                    </div>
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label for="">Email: </label>
+                            <input type="email" placeholder="Enter Your email">
+                        </div>
+                        <div class="input-group">
+                            <label for="">Subject: </label>
+                            <input type="text" placeholder="Enter your querry">
+                        </div>
+                    </div>
+
+                    <label for="">Message</label>
+                    <textarea rows="5" placeholder="Your Message"></textarea>
+
+                    <button type="submit">SEND </button>
+                </form>
+            </div>
+            <div class="contact-right">
+                <h3>Reach Us</h3>
+                <table>
+                    <tr>
+                        <td>Email:
+
+                        </td>
+                        <td>
+                            contactus@TwoGuys.com</td>
+                    </tr>
+                    <tr>
+                        <td>Phone: </td>
+                        <td>+1 012 345 678</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script>
+        var menuBtn = document.getElementById("menuBtn");
+        var sidenav = document.getElementById("sidenav");
+
+        sidenav.style.right = "-250px";
+        menuBtn.onclick = function () {
+            if (sidenav.style.right == "-250px") {
+                sidenav.style.right = "0";
+            }
+            else {
+                sidenav.style.right = "-250px"
+            }
+        }
+
+
+    </script>
+</body>
+
+</html>

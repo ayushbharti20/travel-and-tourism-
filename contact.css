@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family:"Source Serif 4", Georgia, serif ;
+}
+body{
+    background:#f4f1f1;
+    font-size: 14px;
+}
+.logotitle{
+    margin-left: 700px;
+    align-items: center;
+    margin-top: -20px;
+    margin-bottom:-140px;
+}
+.logotitle img{
+    width: 190px;
+}
+#sidenav {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    background:#24262b;
+    z-index: 2;
+    transition: 0.5s;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 50px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+#menuBtn {
+    width: 50px;
+    position: fixed;
+    right: 65px;
+    top: 35px;
+    z-index: 2;
+    cursor: pointer;
+    color: #7c88f6;
+}
+.contain{
+    width: 80%;
+    margin: 80px auto;
+}
+.contact-box{
+    background: #fff;
+    display: flex;
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background:  #24262b;
+    color: #fff;
+}
+h1{
+    margin-top: 18%;
+    margin-bottom: 10px;
+    font-size: x-large;
+
+}
+.contain p{
+    margin-bottom: 40px;
+    font-size: large;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+.input-row .input-group{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #24262b;
+    outline:none;
+    padding-bottom: 5;
+}
+textarea{
+    width: 100%;
+    border: 1px solid #24262b;
+    outline: none;
+    padding: 10px;
+    box-shadow: border-box;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+    color:black;
+}
+button{
+    background:#24262b;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height:35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(28,0,181,0.3);
+}
+.contact-left h3{
+    color: #24262b;
+    font-weight: 600;
+    margin-bottom: 30px;
+
+}
+.contact-right h3{
+    color: white;
+    font-weight: 600;
+    margin-bottom: 30px;
+    
+}
+tr rd:first-child{
+    padding-right: 20px;
+}
+tr td{
+    padding-top: 20px;
+}
+.common-btn{
+    padding: 14px 40px;
+    background: transparent;
+    outline: none;
+    border: 2px solid #7c88f6;
+    font-weight: bold;
+    cursor: pointer;
+}
